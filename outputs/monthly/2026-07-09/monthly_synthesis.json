@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-07-09",
+  "project_snapshots": [
+    {
+      "project_name": "Zycus - UniSan S2P Implementation",
+      "rag": "Red",
+      "one_liner": "The project is in a red health state because more than 10 % of tasks have slipped past their baseline, with a full 100 % of tasks delayed.",
+      "schedule_variance_days": -2,
+      "milestone_completion_rate": null,
+      "sentiment_score": null,
+      "open_blockers": 162
+    },
+    {
+      "project_name": "Zycus - Titan S2P Implementation",
+      "rag": "Red",
+      "one_liner": "The project is in a Red status because more than 10 % of tasks have slipped past baseline, with 64 % of tasks behind schedule and the worst task 81 days late in Phase 2 P2P.",
+      "schedule_variance_days": -81,
+      "milestone_completion_rate": 0.7,
+      "sentiment_score": -0.14285714285714285,
+      "open_blockers": 139
+    }
+  ],
+  "stats": {
+    "project_count": 2,
+    "rag_distribution": {
+      "Red": 2
+    },
+    "avg_schedule_variance_days": -41.5,
+    "common_blocker_terms": [
+      [
+        "workshop",
+        4
+      ],
+      [
+        "training",
+        1
+      ],
+      [
+        "integration",
+        1
+      ]
+    ],
+    "avg_sentiment_score": -0.14285714285714285,
+    "projects_with_perception_gap": [
+      "Zycus - Titan S2P Implementation"
+    ],
+    "movements": [],
+    "history_depth_note": "Only one weekly snapshot has been recorded so far for this portfolio, so week-over-week trend movement cannot be computed yet — insights below are based on the current cross-project snapshot. Run the agent on subsequent weeks (see README) to unlock true time-trend analysis."
+  },
+  "headline": "Both Zycus S2P projects are in red health, with significant schedule delays and a high blocker count, indicating urgent corrective action is required.",
+  "trend_bullets": [
+    "Both projects are red with >10% task delays",
+    "Average schedule variance of -41.5 days signals widespread lag",
+    "Workshop-related blockers dominate the blocker list (4 instances)",
+    "Titan project shows a perception gap and 0.7 milestone completion rate",
+    "Negative sentiment (-0.14) reflects stakeholder concerns"
+  ],
+  "emerging_risks": [
+    "Unresolved blockers (301 total) could stall critical deliverables",
+    "Schedule lag of 81 days on Titan may push go‑live beyond target",
+    "Perception gap in Titan risks stakeholder disengagement",
+    "Negative sentiment may erode trust and lead to scope creep"
+  ],
+  "recommendations": [
+    "Schedule a cross‑functional workshop to triage and resolve the 301 open blockers",
+    "Allocate additional resources to Titan to accelerate backlog and reduce 81‑day delay",
+    "Implement a weekly milestone review cadence to monitor progress",
+    "Engage Titan stakeholders in a perception alignment session to close the gap"
+  ],
+  "narrative_source": "llm"
+}
