@@ -30,7 +30,7 @@ Rather than relying entirely on LLMs to subjectively guess the health of a proje
 - **Core Runtime**: Python 3.11+
 - **Dependency Management**: [uv](https://docs.astral.sh/uv/) (extremely fast Python package installer and resolver)
 - **Data Ingestion**: `openpyxl` (for spreadsheet loading & parsing)
-- **LLM Inference**: [Fireworks AI API](https://fireworks.ai/) (Llama-v3p1-70b-instruct)
+- **LLM Inference**: [Fireworks AI API](https://fireworks.ai/) (gpt-oss-20b )
 - **CLI Development**: `typer` & `rich` (for interactive, styled terminal outputs)
 - **Presentation Generation**: `python-pptx` (for native PowerPoint slides, charts, and tables)
 - **Scheduling**: `apscheduler` (for cron-based recurring execution)
